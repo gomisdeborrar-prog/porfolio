@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Reel</title>
+
+    <link rel="stylesheet" href="./css/porfolio.css">
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const menus = document.querySelectorAll(".submenu-toggle");
+
+    menus.forEach(menu => {
+
+        menu.addEventListener("change", function() {
+
+            if (this.checked) {
+
+                menus.forEach(other => {
+
+                    if (other !== this) {
+                        other.checked = false;
+                    }
+
+                });
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+<body id="top">
+
+<a href="#top" class="boton-arriba">↑</a>
+
+<header>
+    <div>
+        <a href="index.html">
+            <img src="IMAGENES/LOGO.png" alt="logo" class="logo">
+        </a>
+    </div>
+</header>
+<nav>
+
+    <input type="checkbox" id="menu-checkbox">
+    <label for="menu-checkbox" class="menu-toggle">☰</label>
+
+    <div class="menu">
+
+        <div class="dropdown">
+
+    <!-- Desktop -->
+    <a href="index.html" class="dropbtn">PROJECTS ▼</a>
+
+    <!-- Mobile -->
+    <input type="checkbox" id="projects-toggle" class="submenu-toggle">
+
+    <label for="projects-toggle" class="dropbtn-mobile">
+        PROJECTS ▼
+    </label>
+            <div class="dropdown-content">
+                <a href="index.html" class="all-comics">ALL PROYECTS</a>
+                <a href="BANCO.HTML">BANCO DE ALIMENTOS</a>
+                <a href="TOKIO.HTML">KANO GO TO TOKIO</a>
+                <a href="SPRING.HTML">SPREANG BREAKERS</a>
+                <a href="buffy.html">BUFFY THE VAMPIRE SLAYER</a>
+              
+            </div>
+        </div>
+
+        
+        <a href="demoreel.html"class="activo">DEMO REEL</a>
+        <a href="ilustración.html">ILLUSTRATION</a>
+        <a href="sobremi.html">ABOUT ME</a>
+
+        <div class="dropdown">
+
+    <!-- Desktop -->
+    <span class="dropbtn">CONTACT ME ▼</span>
+
+    <!-- Mobile -->
+  <input type="checkbox" id="contact-toggle" class="submenu-toggle">
+
+    <label for="contact-toggle" class="dropbtn-mobile">
+        CONTACT ME ▼
+    </label>
+
+    <div class="dropdown-content">
+       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gomisdeborrar@gmail.com" target="_blank">GMAIL </a>
+
+       <a href="https://gomisdeborrar.carrd.co/" target="_blank">CARD </a>
+
+       <a href="https://www.instagram.com/gomisdeborrar/" target="_blank"> INSTAGRAM</a>
+    </div>
+
+</div>
+
+    </div>
+
+</nav>
+
+        <!-- MAIN -->
+        <main>
+
+            <div class="video-container">
+
+                <video controls>
+
+                    <source src="VIDEOS/demo reel.mp4"
+                    type="video/mp4">
+
+                </video>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <h2>GOMISDEBORRAR</h2>
+
+            <p>
+                Ilustration · Animation · Desing
+            </p>
+
+            <div class="footer-links">
+
+                <a href="sobremi.html">
+                    About Me
+                </a>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gomisdeborrar@gmail.com"
+                target="_blank">
+                    Contact Me
+                </a>
+
+                <a href="https://www.instagram.com/gomisdeborrar/"
+                target="_blank">
+                    Instagram
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Gomisdeborrar
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
