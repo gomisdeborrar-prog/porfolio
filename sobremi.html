@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-
+<link rel="icon" type="image/png" href="IMAGENES/LOGO.png">
     <link rel="stylesheet" href="./CSS/porfolio.css">
 </head>
 <script>
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 </script>
+
 <body id="top">
 
 <a href="#top" class="boton-arriba">↑</a>
@@ -46,17 +47,38 @@ document.addEventListener("DOMContentLoaded", () => {
         </a>
     </div>
 </header>
+
 <nav>
 
     <input type="checkbox" id="menu-checkbox">
     <label for="menu-checkbox" class="menu-toggle">☰</label>
 
     <div class="menu">
+        <div class="dropdown">
+
+            <a href="portfolio.html" class="dropbtn">PORTFOLIO▼</a>
+
+            <input type="checkbox" id="comic-toggle" class="submenu-toggle">
+
+            <label for="comic-toggle" class="dropbtn-mobile">
+                PORTFOLIO ▼
+            </label>
+
+            <div class="dropdown-content">
+                <a href="portfolio.html" class="all-comics">ALL PORTFOLIO</a>
+                <a href="chracter.html">CHARACTER DESIGN</a>
+                <a href="comic.html">COMIC</a>
+                <a href="demoreel.html">DEMO REEL</a>
+                <a href="editorial.html">EDITORIAL</a>
+            
+            </div>
+
+        </div>
 
         <div class="dropdown">
 
     <!-- Desktop -->
-    <a href="index.html" class="dropbtn">PROJECTS ▼</a>
+    <a href="projects.html" class="dropbtn">PROJECTS ▼</a>
 
     <!-- Mobile -->
     <input type="checkbox" id="projects-toggle" class="submenu-toggle">
@@ -65,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         PROJECTS ▼
     </label>
             <div class="dropdown-content">
-                <a href="index.html" class="all-comics">ALL PROYECTS</a>
+                <a href="projects.html" class="all-comics">ALL PROYECTS</a>
                 <a href="BANCO.HTML">BANCO DE ALIMENTOS</a>
                 <a href="TOKIO.HTML">KANO GO TO TOKIO</a>
                 <a href="SPRING.HTML">SPREANG BREAKERS</a>
@@ -75,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         
-        <a href="demoreel.html">DEMO REEL</a>
+       
         <a href="ilustración.html">ILLUSTRATION</a>
         <a href="sobremi.html"class="activo">ABOUT ME</a>
 
@@ -94,14 +116,13 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="dropdown-content">
        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gomisdeborrar@gmail.com" target="_blank">GMAIL </a>
 
-       <a href="https://gomisdeborrar.carrd.co/" target="_blank">CARRD </a>
+       <a href="https://gomisdeborrar.carrd.co/" target="_blank">ALL MY SOCIALS </a>
 
        <a href="https://www.instagram.com/gomisdeborrar/" target="_blank"> INSTAGRAM</a>
     </div>
+    
 
-</div>
-
-    </div>
+</div> 
 
 </nav>
 
@@ -117,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
      <DIV>
     
     <H2>Hi I'm Aitana!</H2>
-    <p>Hi I'm Aitana Gomis,known as Gomisdeborrar on social media. I'm an illustrator, designer, and animator based in Valencia. My greatest passion is storytelling and creating worlds. My work is characterized by being very fun and witty, with a strong social critique. </p>
+    <p>Hi I'm Aitana Gomis, known as Gomisdeborrar on social media. I'm an illustrator, designer, and animator based in Valencia. My greatest passion is storytelling and creating worlds. My work is characterized by being very fun and witty, with a strong social critique. </p>
      <h2>Education</h2>
      <h3>Ilustration degree</h3>
       <p>EASD Valencia - 2022/2026</p> 
@@ -147,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2>GOMISDEBORRAR</h2>
 
         <p>
-            Illustration · Animation · Desing
+            Ilustration · Animation · Desing
         </p>
 
         <div class="footer-links">
@@ -163,6 +184,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <p class="copyright">
             © 2026 Gomisdeborrar
         </p>
+        <p class="copyright">
+
+        gomisdeborrar@gmail.com</p>
 </footer>
     </div>
 </div>

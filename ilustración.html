@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Illustration</title>
-
+    <title>illustration</title>
+<link rel="icon" type="image/png" href="IMAGENES/LOGO.png">
     <link rel="stylesheet" href="./CSS/porfolio.css">
 </head>
 <script>
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 </script>
+
 <body id="top">
 
 <a href="#top" class="boton-arriba">↑</a>
@@ -46,17 +47,38 @@ document.addEventListener("DOMContentLoaded", () => {
         </a>
     </div>
 </header>
+
 <nav>
 
     <input type="checkbox" id="menu-checkbox">
     <label for="menu-checkbox" class="menu-toggle">☰</label>
 
     <div class="menu">
+        <div class="dropdown">
+
+            <a href="portfolio.html" class="dropbtn">PORTFOLIO▼</a>
+
+            <input type="checkbox" id="comic-toggle" class="submenu-toggle">
+
+            <label for="comic-toggle" class="dropbtn-mobile">
+                PORTFOLIO ▼
+            </label>
+
+            <div class="dropdown-content">
+                <a href="portfolio.html" class="all-comics">ALL PORTFOLIO</a>
+                <a href="chracter.html">CHARACTER DESIGN</a>
+                <a href="comic.html">COMIC</a>
+                <a href="demoreel.html">DEMO REEL</a>
+                <a href="editorial.html">EDITORIAL</a>
+            
+            </div>
+
+        </div>
 
         <div class="dropdown">
 
     <!-- Desktop -->
-    <a href="index.html" class="dropbtn">PROJECTS ▼</a>
+    <a href="projects.html" class="dropbtn">PROJECTS ▼</a>
 
     <!-- Mobile -->
     <input type="checkbox" id="projects-toggle" class="submenu-toggle">
@@ -65,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         PROJECTS ▼
     </label>
             <div class="dropdown-content">
-                <a href="index.html" class="all-comics">ALL PROYECTS</a>
+                <a href="projects.html" class="all-comics">ALL PROYECTS</a>
                 <a href="BANCO.HTML">BANCO DE ALIMENTOS</a>
                 <a href="TOKIO.HTML">KANO GO TO TOKIO</a>
                 <a href="SPRING.HTML">SPREANG BREAKERS</a>
@@ -75,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         
-        <a href="demoreel.html">DEMO REEL</a>
+       
         <a href="ilustración.html"class="activo">ILLUSTRATION</a>
         <a href="sobremi.html">ABOUT ME</a>
 
@@ -94,21 +116,21 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="dropdown-content">
        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gomisdeborrar@gmail.com" target="_blank">GMAIL </a>
 
-       <a href="https://gomisdeborrar.carrd.co/" target="_blank">CARRD </a>
+       <a href="https://gomisdeborrar.carrd.co/" target="_blank">ALL MY SOCIALS </a>
 
        <a href="https://www.instagram.com/gomisdeborrar/" target="_blank"> INSTAGRAM</a>
     </div>
+    
 
 </div>
 
-    </div>
 
 </nav>
 
         <!-- MAIN -->
         <main>
 
-            <div class="galeria">
+            <div class="galeriailu">
 
                 <a href="#img1">
                     <img src="IMAGENES/SCOOBY.jpg">
@@ -117,76 +139,59 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="#img2">
                     <img src="IMAGENES/Ilustración_Rio.jpg">
                 </a>
-
+                 </div>
+ <div class="galeriailu">
                 <a href="#img3">
                     <img src="IMAGENES/divine.jpg">
                 </a>
-
-            </div>
-
-            <div class="galeria">
-
                 <a href="#img4">
+                    <img src="IMAGENES/BAILE.jpg">
+                </a>
+
+           </div>
+
+            <div class="galeriailu">
+
+                <a href="#img5">
                     <img src="IMAGENES/bojack.jpg">
                 </a>
 
-                <a href="#img5">
+                <a href="#img6">
                     <img src="IMAGENES/fuego.jpg">
                 </a>
-
-                <a href="#img6">
+                </div>
+<div class="galeriailu">
+                <a href="#img7">
                     <img src="IMAGENES/Yellow_Jackets.jpg">
                 </a>
 
-                <a href="#img7">
+                <a href="#img8">
                     <img src="IMAGENES/aceitunas.jpg">
                 </a>
 
             </div>
 
-            <div class="galeria">
+            <div class="galeriailu">
 
-                <a href="#img8">
+                <a href="#img9">
                     <img src="IMAGENES/ethel.jpg">
                 </a>
 
-                <a href="#img9">
+                <a href="#img10">
                     <img src="IMAGENES/caballo.jpg">
                 </a>
 
-                <a href="#img10">
+                <a href="#img11">
                     <img src="IMAGENES/dan.jpg">
                 </a>
 
-                <a href="#img11">
+                <a href="#img12">
                     <img src="IMAGENES/vampiros.jpg">
                 </a>
 
-                <a href="#img12">
-                    <img src="IMAGENES/cartelcmyk.jpg">
-                </a>
 
             </div>
 
-            <div class="galeria">
-
-                <a href="#img13">
-                    <img src="IMAGENES/PUERTA.jpg">
-                </a>
-
-                <a href="#img14">
-                    <img src="IMAGENES/reloj.jpg">
-                </a>
-
-                <a href="#img15">
-                    <img src="IMAGENES/BAILE.jpg">
-                </a>
-
-                <a href="#img16">
-                    <img src="IMAGENES/REY.jpg">
-                </a>
-
-            </div>
 
         </main>
 
@@ -194,117 +199,95 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <!-- MODALES -->
     
-    <div id="img1" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img16" class="anterior">❮</a>
-        <img src="IMAGENES/SCOOBY.jpg">
-        <a href="#img2" class="siguiente">❯</a>
-    </div>
+   <div id="img1" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img12" class="anterior">❮</a>
+    <img src="IMAGENES/SCOOBY.jpg">
+    <a href="#img2" class="siguiente">❯</a>
+</div>
 
-    <div id="img2" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img1" class="anterior">❮</a>
-        <img src="IMAGENES/Ilustración_Rio.jpg">
-        <a href="#img3" class="siguiente">❯</a>
-    </div>
+<div id="img2" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img1" class="anterior">❮</a>
+    <img src="IMAGENES/Ilustración_Rio.jpg">
+    <a href="#img3" class="siguiente">❯</a>
+</div>
 
-    <div id="img3" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img2" class="anterior">❮</a>
-        <img src="IMAGENES/divine.jpg">
-        <a href="#img4" class="siguiente">❯</a>
-    </div>
+<div id="img3" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img2" class="anterior">❮</a>
+    <img src="IMAGENES/divine.jpg">
+    <a href="#img4" class="siguiente">❯</a>
+</div>
 
-    <div id="img4" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img3" class="anterior">❮</a>
-        <img src="IMAGENES/bojack.jpg">
-        <a href="#img5" class="siguiente">❯</a>
-    </div>
+<div id="img4" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img3" class="anterior">❮</a>
+    <img src="IMAGENES/BAILE.jpg">
+    <a href="#img5" class="siguiente">❯</a>
+</div>
 
-    <div id="img5" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img4" class="anterior">❮</a>
-        <img src="IMAGENES/fuego.jpg">
-        <a href="#img6" class="siguiente">❯</a>
-    </div>
+<div id="img5" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img4" class="anterior">❮</a>
+    <img src="IMAGENES/bojack.jpg">
+    <a href="#img6" class="siguiente">❯</a>
+</div>
 
-    <div id="img6" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img5" class="anterior">❮</a>
-        <img src="IMAGENES/Yellow_Jackets.jpg">
-        <a href="#img7" class="siguiente">❯</a>
-    </div>
+<div id="img6" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img5" class="anterior">❮</a>
+    <img src="IMAGENES/fuego.jpg">
+    <a href="#img7" class="siguiente">❯</a>
+</div>
 
-    <div id="img7" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img6" class="anterior">❮</a>
-        <img src="IMAGENES/aceitunas.jpg">
-        <a href="#img8" class="siguiente">❯</a>
-    </div>
+<div id="img7" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img6" class="anterior">❮</a>
+    <img src="IMAGENES/Yellow_Jackets.jpg">
+    <a href="#img8" class="siguiente">❯</a>
+</div>
 
-    <div id="img8" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img7" class="anterior">❮</a>
-        <img src="IMAGENES/ethel.jpg">
-        <a href="#img9" class="siguiente">❯</a>
-    </div>
+<div id="img8" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img7" class="anterior">❮</a>
+    <img src="IMAGENES/aceitunas.jpg">
+    <a href="#img9" class="siguiente">❯</a>
+</div>
 
-    <div id="img9" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img8" class="anterior">❮</a>
-        <img src="IMAGENES/caballo.jpg">
-        <a href="#img10" class="siguiente">❯</a>
-    </div>
+<div id="img9" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img8" class="anterior">❮</a>
+    <img src="IMAGENES/ethel.jpg">
+    <a href="#img10" class="siguiente">❯</a>
+</div>
 
-    <div id="img10" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img9" class="anterior">❮</a>
-        <img src="IMAGENES/dan.jpg">
-        <a href="#img11" class="siguiente">❯</a>
-    </div>
+<div id="img10" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img9" class="anterior">❮</a>
+    <img src="IMAGENES/caballo.jpg">
+    <a href="#img11" class="siguiente">❯</a>
+</div>
 
-    <div id="img11" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img10" class="anterior">❮</a>
-        <img src="IMAGENES/vampiros.jpg">
-        <a href="#img12" class="siguiente">❯</a>
-    </div>
+<div id="img11" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img10" class="anterior">❮</a>
+    <img src="IMAGENES/dan.jpg">
+    <a href="#img12" class="siguiente">❯</a>
+</div>
 
-    <div id="img12" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img11" class="anterior">❮</a>
-        <img src="IMAGENES/cartelcmyk.jpg">
-        <a href="#img13" class="siguiente">❯</a>
-    </div>
+<div id="img12" class="modal">
+    <a href="#" class="cerrar">×</a>
+    <a href="#img11" class="anterior">❮</a>
+    <img src="IMAGENES/vampiros.jpg">
+    <a href="#img1" class="siguiente">❯</a>
+</div>
 
-    <div id="img13" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img12" class="anterior">❮</a>
-        <img src="IMAGENES/PUERTA.jpg">
-        <a href="#img14" class="siguiente">❯</a>
-    </div>
+   
 
-    <div id="img14" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img13" class="anterior">❮</a>
-        <img src="IMAGENES/reloj.jpg">
-        <a href="#img15" class="siguiente">❯</a>
-    </div>
+   
 
-    <div id="img15" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img14" class="anterior">❮</a>
-        <img src="IMAGENES/BAILE.jpg">
-        <a href="#img16" class="siguiente">❯</a>
-    </div>
-
-    <div id="img16" class="modal">
-        <a href="#" class="cerrar">×</a>
-        <a href="#img15" class="anterior">❮</a>
-        <img src="IMAGENES/REY.jpg">
-        <a href="#img1" class="siguiente">❯</a>
-    </div>
+  
 
     <footer class="footer">
 
@@ -313,7 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>GOMISDEBORRAR</h2>
 
             <p>
-                Illustration · Animation · Desing
+                Ilustration · Animation · Desing
             </p>
 
             <div class="footer-links">
@@ -335,7 +318,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <p class="copyright">
                 © 2026 Gomisdeborrar
             </p>
+ <p class="copyright">
 
+        gomisdeborrar@gmail.com</p>
         </div>
 
     </footer>
